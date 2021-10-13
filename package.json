@@ -1,0 +1,21 @@
+{
+  "name": "study_vanilla_spa",
+  "version": "0.1.0",
+  "description": "vanilla js로 만들어보는 SPA",
+  "main": "app.js",
+  "scripts": {
+    "serve": "npx live-server --open=/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkDyel/_study_vanilla_spa.git"
+  },
+  "author": "ParkDyel",
+  "bugs": {
+    "url": "https://github.com/ParkDyel/_study_vanilla_spa/issues"
+  },
+  "homepage": "https://github.com/ParkDyel/_study_vanilla_spa#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

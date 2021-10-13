@@ -3,8 +3,6 @@
 *** based https://github.com/othneildrew/Best-README-Template/blob/master/README.md
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -19,8 +17,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 <!-- [![linkedin][linkedin-shield]][linkedin-url] #external Badge Ref-->
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -78,21 +74,17 @@
 
 <p align="right"><a href="#top">back to top</a></p>
 
-
-
 ### Built With
 
 * [Vanilla.js](http://vanilla-js.com/)
+* [live-server](https://www.npmjs.com/package/live-server)
 
 <p align="right"><a href="#top">back to top</a></p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-vanilla.js는 추가적인 어떤 것도 필요없습니다!
-오직 Chrome만 있으면 됩니다!
+library나 framework 없이 SPA 구현해보기
 
 ### Prerequisites
 
@@ -102,20 +94,26 @@ vanilla.js는 추가적인 어떤 것도 필요없습니다!
 
 ### Installation
 
-nothing for this project.
+package.json의 의존성 파일들을 설치하기 위해 다음 명령어를 실행합니다.
+
+* package.json
+
+  ```bash
+  npm install
+  ```
 
 <p align="right"><a href="#top">back to top</a></p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-just click index.html!
+live-server를 동작시키기 위해 다음 명령어를 실행합니다.
+
+```bash
+npm run serve
+```
 
 <p align="right"><a href="#top">back to top</a></p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -125,8 +123,6 @@ just click index.html!
 
 <p align="right"><a href="#top">back to top</a></p>
 
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -134,16 +130,12 @@ just click index.html!
 
 <p align="right"><a href="#top">back to top</a></p>
 
-
-
 <!-- LICENSE -->
 ## License
 
 None
 
 <p align="right"><a href="#top">back to top</a></p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -154,8 +146,6 @@ Project Link: [https://github.com/ParkDyel/_study_vanilla_spa](https://github.co
 
 <p align="right"><a href="#top">back to top</a></p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -163,10 +153,9 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [MDN Web Docs - html](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [MDN Web Docs - js](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [live-server](https://www.npmjs.com/package/live-server)
 
 <p align="right"><a href="#top">back to top</a></p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

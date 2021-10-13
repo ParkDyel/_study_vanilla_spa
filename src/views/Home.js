@@ -1,10 +1,11 @@
-function Header({ parent, props }) {
+function Home({ parent, props }) {
   this.init = () => {
     this.state = {
-      name: props.name,
+      name: props?.name,
     };
 
-    this.$node = document.createElement('header');
+    this.$node = document.createElement('session');
+    parent.innerHTML = '';
     parent.appendChild(this.$node);
     this.setState(this.state);
   };
@@ -15,10 +16,10 @@ function Header({ parent, props }) {
   };
 
   this.render = () => {
-    this.$node.innerHTML = `<h1>반갑습니다. 자 이제 시작이에요 ${this.state.name}님!</h1>`;
+    this.$node.innerHTML = `<H1>Main Page 입니다</h1>`;
   };
 
   this.init();
 }
 
-export default Header;
+export default Home;

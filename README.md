@@ -118,8 +118,10 @@ npm run serve
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] rendering a components
-- [ ] rendering the components by path
+- [x] rendering a components
+- [x] rendering the components by path
+- [ ] Mocking(MSW.js)
+- [ ] rendering the list components 
 
 <p align="right"><a href="#top">back to top</a></p>
 

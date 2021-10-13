@@ -4,7 +4,7 @@
   "description": "vanilla js로 만들어보는 SPA",
   "main": "app.js",
   "scripts": {
-    "serve": "npx live-server --open=/index.html"
+    "serve": "npx live-server --open=/index.html --entry-file=/index.html"
   },
   "repository": {
     "type": "git",

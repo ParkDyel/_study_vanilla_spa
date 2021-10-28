@@ -8,4 +8,5 @@
   "css.lint.emptyRules": "error",
   "css.lint.unknownAtRules": "error",
   "css.lint.unknownProperties": "error",
+  "css.validate": true,
 }

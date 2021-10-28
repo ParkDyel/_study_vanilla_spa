@@ -5,9 +5,35 @@ header ul {
 header > ul {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 header .left * {
     display: inline-block;
 }
 
+.product-list figure{
+  cursor: pointer;
+  width: 200px;
+  margin: 15px;
+  padding: 15px;
+  -moz-box-shadow:    3px 3px 5px rgba(92, 92, 92, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(92, 92, 92, 0.5);
+  box-shadow:         3px 3px 5px rgba(92, 92, 92, 0.5);
+  outline: rgba(92, 92, 92, 0.5) 2px;
+}
+
+.product-list figure:hover,
+.product-list figure.select{
+  -moz-box-shadow:    inset 3px 3px 5px rgba(92, 92, 92, 0.5);
+  -webkit-box-shadow: inset 3px 3px 5px rgba(92, 92, 92, 0.5);
+  box-shadow:         inset 3px 3px 5px rgba(92, 92, 92, 0.5);
+}
+
+.product-list figure:hover {
+  background-color: rgba(184, 184, 184, 0.5);
+}
+
+.product-list img {
+  width: 100%;
+}

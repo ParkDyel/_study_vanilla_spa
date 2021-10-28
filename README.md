@@ -120,8 +120,10 @@ npm run serve
 
 - [x] rendering a components
 - [x] rendering the components by path
-- [ ] Mocking(MSW.js)
-- [ ] rendering the list components 
+- ~~[ ] Mocking(MSW.js)~~
+- [x] rendering the list components
+- [ ] router with query
+- [ ] better css
 
 <p align="right"><a href="#top">back to top</a></p>
 
@@ -151,8 +153,6 @@ Project Link: [https://github.com/ParkDyel/_study_vanilla_spa](https://github.co
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [MDN Web Docs - html](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [MDN Web Docs - js](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [live-server](https://www.npmjs.com/package/live-server)
@@ -171,7 +171,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/ParkDyel/_study_vanilla_spa/issues
 [license-shield]: https://img.shields.io/github/license/ParkDyel/_study_vanilla_spa.svg?style=for-the-badge
 [license-url]: https://github.com/ParkDyel/_study_vanilla_spa/blob/master/LICENSE.txt
-<!-- Eeternal Badge Ref -->
+<!-- Eternal Badge Ref -->
 <!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 -->
 <!-- [linkedin-url]: https://linkedin.com/in/ParkDyel -->
 <!-- LOCAL Image Ref -->

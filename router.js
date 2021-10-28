@@ -42,6 +42,7 @@ function Route({ $app }) {
 }
 
 export const routerPush = $__path => {
+  if ($__path === window.location.pathname) return;
   window.history.pushState({}, $__path, window.location.origin + $__path);
   render($__path);
 };

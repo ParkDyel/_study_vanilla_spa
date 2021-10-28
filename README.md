@@ -120,8 +120,10 @@ npm run serve
 
 - [x] rendering a components
 - [x] rendering the components by path
-- [ ] Mocking(MSW.js)
-- [ ] rendering the list components 
+- ~~[ ] Mocking(MSW.js)~~
+- [x] rendering the list components
+- [ ] router with query
+- [ ] better css
 
 <p align="right"><a href="#top">back to top</a></p>
 
